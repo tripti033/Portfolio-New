@@ -169,7 +169,7 @@ export default function HeroScrollDemo() {
                             <div className="h-[24%] bg-[#161A31] rounded-2xl p-4 sm:p-6 relative overflow-hidden">
                                 <div className="flex flex-row items-center justify-between relative z-20 h-full">
                                     <h3 className="text-lg sm:text-xl md:text-2xl    font-semibold text-white/90 relative z-20">
-                                        Have an idea? Let's bring it to life
+                                        Have an idea? Let&apos;s bring it to life
                                     </h3>
                                     <div className="relative">
                                         <MagicButton
