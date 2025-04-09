@@ -1,5 +1,4 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -17,7 +16,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center max-w-6xl mx-auto">
         <h1 className="heading lg:max-w-[45vw] text-center">
-          Let’s turn your tech vision into  <span className="text-purple">a reality 🚀</span> 
+          Let’s turn your tech vision into <span className="text-purple">a reality 🚀</span>
         </h1>
         <p className="text-white-200 mt-6 md:mt-8 mb-8 md:mb-10 text-center text-sm sm:text-base max-w-2xl">
           Reach out to me today and let&apos;s discuss how I can help you
@@ -40,16 +39,19 @@ const Footer = () => {
 
         <div className="flex items-center gap-4 md:gap-6">
           {socialMedia.map((info) => (
-            <div
+            <a
               key={info.id}
+              href={info.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 sm:w-10 sm:h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:bg-opacity-100 transition-all duration-200"
             >
               <img
                 src={info.img}
-                alt="icons"
+                alt="social icon"
                 className="w-4 h-4 sm:w-5 sm:h-5"
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
