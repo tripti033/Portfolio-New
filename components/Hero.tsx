@@ -57,10 +57,10 @@ const Hero = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1i0tjON6jyFM88cMlNs55DrwMAC3q9N4-/view?usp=sharing" // replace with your actual resume URL
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+  href="/FINAL_RESUME.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
             <MagicButton
               title="Resume"
               icon={<FaLocationArrow />}
