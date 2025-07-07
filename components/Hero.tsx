@@ -57,7 +57,7 @@ const Hero = () => {
           </p>
 
           <a
-  href="/FINAL_RESUME.pdf"
+  href="/FINALE_RESUME.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
